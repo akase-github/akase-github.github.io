@@ -107,10 +107,11 @@ header{
 .profile-page {
     background-color: rgb(253, 250, 240);
     height: 900px;
+    width: 100%;
 }
 
 .profile-container {
-    width: 1200px;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -174,13 +175,12 @@ header{
 }
 
 .profile-text a{
-    width: 80%;
     font-size: 15px;
 }
 
 .twitter {
     color: #555555;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 
 .instagram {
@@ -301,11 +301,12 @@ header{
    }
 
    .profile-box {
-       width: 100%;
+       width: 90%;
        margin-left: 0px;
        padding-left: 0px;
        text-align: center;
        height: 100%;
+       margin: 0px auto;
    }
 
    .profile-box img {
@@ -317,20 +318,20 @@ header{
 
 
    .profile-text dt {
-       width: auto;
+       width: 20%;
        padding-right: 0px;
-       padding-left: 40px;
+       padding-left: 0px;
    }
 
    .profile-text dd {
-       padding-left: 30%;
-       text-align: left;
+       width: 80%;
+       text-align: right;
    }
 
-   .sns {
-       text-align: center;
-       
-   }
+
+  
+
+   
 
 /* コンタクトページ　*/
 
@@ -364,4 +365,8 @@ header{
        margin: 0 auto ;
    }
 
+   .submit-btn {
+       width: 90%;
+       margin: 0 auto;
+   }
 }
