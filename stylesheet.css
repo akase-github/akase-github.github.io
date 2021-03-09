@@ -106,7 +106,7 @@ header{
 
 .profile-page {
     background-color: rgb(253, 250, 240);
-    height: 800px;
+    height: 900px;
 }
 
 .profile-container {
@@ -124,6 +124,13 @@ header{
 }
 
 .profile-coments {
+    font-family: serif;
+    font-size: 15px;
+    color: #555555;
+    text-align: center;
+}
+
+.profile-coments-2 {
     font-family: serif;
     font-size: 15px;
     color: #555555;
@@ -167,7 +174,8 @@ header{
 }
 
 .profile-text a{
-    width: 80;
+    width: 80%;
+    font-size: 15px;
 }
 
 .twitter {
@@ -188,7 +196,7 @@ header{
 
 .contact-page {
     background-color: rgb(253, 250, 240);
-    height: 800px;
+    height: 900px;
 }
 
 .contact-page h1{
@@ -247,4 +255,113 @@ header{
 .submit-btn {
     color: #555555;
     font-family: serif;
+}
+
+/* スマートフォン向けレイアウト */
+
+@media(max-width: 670px) {
+
+    /*　ヘッダー */
+
+   .header-container {
+       width: 100%;
+   }
+
+   /*　ジャケット */
+
+   .top-cover {
+       width: 100%;
+       height: 370px;
+   }
+
+   .top-container {
+       width: 100%;
+   }
+
+   .top-container h1 {
+       font-size: 40px;
+       line-height: 70px;
+       padding-left: 15px;
+   }
+
+   /*　トップコンテンツ　*/
+
+   .contents-container {
+       width: 100%;
+   }
+
+   /* プロフィール */
+
+   .profile-container {
+       width: 100%;
+   }
+
+   .profile-coments-2 {
+       padding-bottom: 60px;
+   }
+
+   .profile-box {
+       width: 100%;
+       margin-left: 0px;
+       padding-left: 0px;
+       text-align: center;
+       height: 100%;
+   }
+
+   .profile-box img {
+        float: none;
+        padding: 0px 0px 60px 0px;
+        padding-right: 0px;
+        margin: 0 auto;
+   }
+
+
+   .profile-text dt {
+       width: auto;
+       padding-right: 0px;
+       padding-left: 40px;
+   }
+
+   .profile-text dd {
+       padding-left: 30%;
+       text-align: left;
+   }
+
+   .sns {
+       text-align: center;
+       
+   }
+
+/* コンタクトページ　*/
+
+   .contact-coments {
+       margin: 0% 5%;
+   }
+
+   .info-coments {
+       margin: 0% 5%;
+   }
+
+   .contact-box {
+       width: 100%;
+       text-align: center;
+       padding: 0% 5%;
+   }
+
+   .contact-form {
+       width: 100%;
+       padding: 15px 0px;
+       
+   }
+
+   .contact-box textarea {
+       padding: 55px 0px;
+       width: 100%;
+   }
+
+   .submit-container {
+       width: 100%;
+       margin: 0 auto ;
+   }
+
 }
