@@ -63,7 +63,7 @@ header{
 
 .top-cover{
     height: 450px;
-    background-image: url(cover.jpg);
+    background-image: url(images/cover.jpg);
     background-size: cover;
     margin: 0px;
 }
