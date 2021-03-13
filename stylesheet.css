@@ -63,7 +63,7 @@ header{
 
 .top-cover{
     height: 450px;
-    background-image: url(cover.jpg);
+    background-image: url(images/cover.jpg);
     background-size: cover;
     margin: 0px;
 }
@@ -84,7 +84,7 @@ header{
 /* トップコンテンツ（未実装）*/
 
 .top-contents{
-    height: 500px;
+    height: 630px;
     background-color: rgb(253, 250, 240);
 }
 
@@ -106,7 +106,7 @@ header{
 
 .profile-page {
     background-color: rgb(253, 250, 240);
-    height: 900px;
+    height: 1080px;
     width: 100%;
 }
 
@@ -196,7 +196,7 @@ header{
 
 .contact-page {
     background-color: rgb(253, 250, 240);
-    height: 900px;
+    height: 1080px;
 }
 
 .contact-page h1{
@@ -212,11 +212,11 @@ header{
     font-family: serif;
     font-size: 15px;
     color: #555555;
-    /*padding-bottom: 50px;*/
+    padding-bottom: 50px;
     text-align: center;
 }
 
-/* コンタクトフォーム現在使用できません文 */
+/* コンタクトフォーム現在使用できません文　*/
 
 .info-coments {
     font-family: serif;
@@ -225,6 +225,7 @@ header{
     text-align: center;
     padding-bottom: 50px;
 }
+
 
 .contact-box {
     width: 470px;
@@ -238,23 +239,32 @@ header{
 }
 
 .contact-form {
-    padding: 8px 50px 8px 0px;
+    padding: 8px 4px;
+    width: 50%;
 }
 
 .contact-box textarea {
-    padding: 30px 300px 30px 0px;
-    margin-bottom: 20px;
+    padding: 8px 4px;
+    width: 100%;
+    height: 170px;
+    margin-bottom: 40px;
 }
 
-.submit-container {
-    width: 470px;
-    margin: 0 auto;
-    text-align: center;
-}
 
 .submit-btn {
     color: #555555;
     font-family: serif;
+    margin: 0 auto;
+    display: block;
+}
+
+/*　フォームページ */
+
+.form-text {
+    font-family: serif;
+    font-size: 15px;
+    color: #555555;
+    padding-left: 10px;
 }
 
 /* スマートフォン向けレイアウト */
@@ -327,10 +337,6 @@ header{
        width: 80%;
        text-align: right;
    }
-
-
-  
-
    
 
 /* コンタクトページ　*/
@@ -351,22 +357,27 @@ header{
 
    .contact-form {
        width: 100%;
-       padding: 15px 0px;
+       padding: 10px 5px;
        
    }
 
    .contact-box textarea {
-       padding: 55px 0px;
+       padding: 10px 5px;
        width: 100%;
-   }
-
-   .submit-container {
-       width: 100%;
-       margin: 0 auto ;
+       height: 200px;
    }
 
    .submit-btn {
-       width: 90%;
+       width: 100%;
        margin: 0 auto;
+       padding: 10px 0px;
    }
+
+/* フォームページ */
+
+   .form-text{
+       padding-left: 0px;
+
+   }
+
 }
