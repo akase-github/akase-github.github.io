@@ -141,8 +141,8 @@ header{
 
 .profile-box{
     width: 700px;
-    margin-left: 340px;
-    padding-left: 20px;
+    margin: 0 auto;
+    padding-left: 80px;
     height: 200px;
 }
 
